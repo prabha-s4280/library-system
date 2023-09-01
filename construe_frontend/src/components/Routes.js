@@ -43,7 +43,7 @@ export const Routes = () => {
         
             <Link className='footer' to='/contact'>contact us</Link>
 
-            <div className='bg-logo'><h1>c</h1><h1>T</h1></div>
+            <div className='bg-logo'><h1>L</h1><h1>M</h1></div>
 
         </main>
     )

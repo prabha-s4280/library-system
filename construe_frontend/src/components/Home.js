@@ -16,7 +16,7 @@ export const Home = () => {
 
     return (
         <>
-            <h1>CONSTRUE</h1>
+            <h1></h1>
             <div className='quote'>
                 <p>"{quote}"</p>
                 <em>-{quotee}</em>
@@ -27,11 +27,12 @@ export const Home = () => {
                     <Link className='newbook' key={book.id} to={`book/${book.id}/${book.slug}`}>
                         
                         <picture>
+                        
                             <source className='image-small' srcSet={book.image} />
                             <img className='image-small' 
                             src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Noimage.svg/739px-Noimage.svg.png' />               
                         </picture>
-                        <h4>{book.title}</h4>
+                        <h2>{book.title}</h2>
                         <p>{book.author}</p>
                         
                     </Link>)}

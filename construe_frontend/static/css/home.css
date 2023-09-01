@@ -6,7 +6,9 @@
 
 .quote em {
     float: right;
+    color: greenyellow;
 }
+
 
 .newbooks {
     display: flex;
@@ -41,7 +43,7 @@
 
 
 .bg-logo h1{
-    font-size: 50vh;
+    font-size: 0vh;
     position: fixed;
     left: calc(50% + 120px);
     top: 50%;
